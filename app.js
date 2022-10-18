@@ -58,7 +58,7 @@ function todoDone(e){
 }
 
 
-function removeLocalTodos(todo){}
+// function removeLocalTodos(todo){}
 
 function getTodos(){
   todoList.innerHTML = '';

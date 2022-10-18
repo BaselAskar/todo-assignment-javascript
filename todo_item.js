@@ -26,8 +26,13 @@ class TodoItem {
     return this.#done;
   }
 
-  set done(done){
-    this.#done = done;
+  set done(value){
+    if (typeof(value) !== 'boolean'){
+      console.error('the value has to be boolean');
+      return;
+    }
+
+    this.#done = value;
   }
 
 }
