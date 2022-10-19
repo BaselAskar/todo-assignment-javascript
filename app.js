@@ -1,3 +1,4 @@
+'use strict';
 // import TodoItem from "./todo_item.js";
 
 //todo item class
